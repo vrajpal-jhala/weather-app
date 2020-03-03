@@ -1,0 +1,19 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.forecast-weather-row{
+    border-bottom: 2px solid lightgray;
+}
+
+.fw-card {
+  .fas {
+    font-size: xx-large;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .fw-card {
+    .fas {
+      font-size: -webkit-xxx-large;
+    }
+  }
+}
